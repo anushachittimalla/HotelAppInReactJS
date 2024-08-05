@@ -20,16 +20,17 @@ function Rooms(){
     <p style={{fontSize:"20px"}} >Luptatem quia voluptas sit aspernatur aut odit aut fugit, <br></br>sed quia, sed quia non numquam eius</p>
 
     <div className='container'> 
-    <div class="image-container">
+    <div className='row'>
+    {/* <div class="image-container">
         <img src={room1} alt="img" width="200" />
         <div class="overlay">
             <div class="overlay-text">This is a overlay text</div>
         </div>
-        </div>
+        </div> */}
 
 
-    <div className='row'>
-        <div className='col-md-6 col-lg-4 roomimage'><Link to='/roomdetails'><img src={room1} className="each-room image" alt="" /><div class="middle">
+    
+<div className='col-md-6 col-lg-4 roomimage'><Link to='/roomdetails'><img src={room1} className="each-room image" alt="" /><div class="middle">
     <div class="text"><p>Discover one of our favourite Room from our hotel that are destined to be loved immediately</p></div>
   </div></Link></div>
   <div className='col-md-6 col-lg-4 roomimage'><Link to='/roomdetails'><img src={room2} className="each-room image" alt="" /><div class="middle">

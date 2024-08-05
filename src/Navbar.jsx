@@ -5,6 +5,7 @@ import picklulogo from './images/logo.webp';
 import { Link } from "react-router-dom";
 
 function Navbar() {
+  
     // adding the states 
     const [isActive, setIsActive] = useState(false);
     //add the active class
@@ -45,12 +46,12 @@ function Navbar() {
             </div></Link>
             </div>
             
-            <div className="col-lg-2 col-md-3 col-sm-3 booking-section"><Link to='/booking'> 
+            <div className="col-lg-2 col-md-3 col-sm-3 booking-section">
             <div className={`${styles.hamburger} ${isActive ? styles.active : ''}`}  onClick={toggleActiveClass}>
               <span className={`${styles.bar}`}></span>
               <span className={`${styles.bar}`}></span>
               <span className={`${styles.bar}`}></span>
-            </div></Link>
+            </div>
             </div>
             </div>
   </div>
@@ -59,4 +60,4 @@ function Navbar() {
     );
   }
   export default Navbar;
-  ;
+  
