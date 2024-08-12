@@ -118,11 +118,6 @@ function Contact() {
                         <buton></buton>
                     </div>
                 </div>
-                <div className='response'>
-                    {resState.map((each)=> {
-                        return <p> {each.first_name}</p>
-                    })}
-                </div>
             </div>
         </div>
     )
