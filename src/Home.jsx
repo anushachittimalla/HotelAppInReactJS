@@ -121,7 +121,7 @@ function Home(){
         <div className='eachcount'>
             <h2 className='counter'> <span > 0 </span></h2>
         </div>
-        <div className='eachcount-title'>Five Star Ratings</div>
+        <div className='eachcount-title'>5 Star Ratings</div>
     </div>
 </div>
 <div className='col-md-3'>
